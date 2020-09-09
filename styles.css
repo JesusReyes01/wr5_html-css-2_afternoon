@@ -21,7 +21,7 @@ h3{
 
 .header-flex{
     height: 80px;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     padding: 0 10px;
     background: rgb(37, 37, 37);
@@ -53,7 +53,7 @@ h3{
 .link-flex button{
     font-family: Arial, sans-serif;
     color:white;
-    background: rgb(31, 157, 199);
+    background: rgb(83,170,221);
     border-radius: 15%;
     cursor: pointer;
 ;
@@ -95,7 +95,7 @@ h3{
     top: 350px;
     font-size: 24px;
     font-family: Arial, sans-serif;
-    color: rgb(31, 157, 199);
+    color: rgb(83,170,221);
     background-color: transparent;
     border: 0px;
     font-weight: lighter;
