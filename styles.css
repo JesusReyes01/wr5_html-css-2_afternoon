@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+h3{
+    color: white;
+    font-size: 24px;
+    /* font-weight: bold; */
+   
+}
+
+
+
+
+
+.header-flex{
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background: rgb(37, 37, 37);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-flex img {
+    position: relative;
+    left: 25px;
+  
+    display: flex;
+    height: 40px;
+    
+    align-items:center;
+
+}
+
+.link-flex {
+    color: white;
+    font-family: Arial, sans-serif;
+    display:flex;
+    width: 60vw;
+    justify-content: space-between;
+    align-self: center;
+}
+.link-flex button{
+    font-family: Arial, sans-serif;
+    color:white;
+    background: rgb(31, 157, 199);
+    border-radius: 15%;
+    cursor: pointer;
+;
+}
+
+.image{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80);
+    /* background-image: url(https://s3.amazonaws.com/devmountain/www/img/devmountain_opengraph.png); */
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+.image h1{
+    position: relative;
+    top: 200px;
+    font-family: Arial, sans-serif;
+    color:white;
+    
+
+}
+.image h3{
+    position: relative;
+    top: 200px;
+    font-family: Arial, sans-serif;
+    color:white;
+    font-weight: 100;
+    
+
+}
+.image button{
+    height: 50px;
+    width: 250px;
+    position:relative;
+    align-self: center;
+    top: 350px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: rgb(31, 157, 199);
+    background-color: transparent;
+    border: 0px;
+    font-weight: lighter;
+    cursor: pointer;
+
+}
+
+.fixed-emblem{
+    
+   
+    display:flex;
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index:3;
+
+}
+.fixed-emblem button{
+            /* background-image: url(https://blog.devmountain.com/wp-content/uploads/2017/07/11058691_902597993144402_1574315034871678657_n-70x70.png) */
+            background-image: url(https://s3.amazonaws.com/devmountain/www/img/icons/play_icon.png); 
+            background-size: cover; 
+            width: 50px; 
+            height: 50px; 
+            border-radius: 50%;
+            border-color:black;
+            cursor: pointer;
+            background-color: rgb(37, 37, 37);
+}
